@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SSO Client APP</title>
+</head>
+<body>
+    <% if(!user) { %>
+        <h1>Welcome to SSO Client APP</h1>
+        <% if(ssoUrl) { %>
+          <a href="<%= ssoUrl %>">Login with SSO</a>
+        <% } %>
+    <% } else { %>
+  <h1>Welcome, <%= user.name %></h1>
+  <p>Email: <%= user.email %></p>
+  <a href="/logout">Logout</a>
+    <% } %>
+</body>
+</html>

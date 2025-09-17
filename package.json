@@ -1,0 +1,26 @@
+{
+  "name": "sso-clients-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@awenk/http-helper-api": "github:badueny/http-helper-api",
+    "axios": "^1.12.2",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.10",
+    "openid-client": "^6.8.0"
+  }
+}

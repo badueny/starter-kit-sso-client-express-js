@@ -12,7 +12,6 @@
   "type": "commonjs",
   "dependencies": {
     "@awenk/http-helper-api": "github:badueny/http-helper-api",
-    "axios": "^1.12.2",
     "body-parser": "^2.2.0",
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.2.2",
